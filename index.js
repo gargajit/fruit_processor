@@ -1,3 +1,4 @@
+// Inventory
 function fruitInventory(fruit, qnt) {
     const fruits = {
         "apple": 10,
@@ -25,7 +26,7 @@ function fruitInventory(fruit, qnt) {
 }
 
 
-
+// fruit processor
 function fruitProcessor(fruit1, qnt1, fruit2, qnt2) {
     let isFruit1, isFruit2;
     if (qnt1 && qnt2) {
@@ -52,6 +53,6 @@ function fruitProcessor(fruit1, qnt1, fruit2, qnt2) {
     }
 }
 
-
+// function call
 const fruitJuice = fruitProcessor("orange", 5, "sweet lime", "two");
 console.log(fruitJuice);
